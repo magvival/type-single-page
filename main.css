@@ -8,8 +8,17 @@
     }
     
     body{
-    background-color: rgb(194, 194, 194);
+    background-image: url("");
+    background-color: rgb(170, 170, 170);
     font-family: 'Roboto Flex';
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    background-image: url("assets/SVG/Asset\ 1.svg");
+    background-repeat: no-repeat;
+
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
