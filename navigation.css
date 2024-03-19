@@ -8,8 +8,8 @@
   
   header {
     /* where to set the color of the nav bar */
-  
-    background: rgb(150, 148, 148);
+  background-image: url(assets/nav-bckgrnd.svg);
+
       text-align: center;
       top:0px;
       position: fixed;
