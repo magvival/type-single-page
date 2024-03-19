@@ -12,7 +12,7 @@
     }
     
     body{
-    background-image: url("assets");
+    background-image: url("assets/backgrnd.svg");
     background-color: rgb(255, 244, 244);
     font-family: 'Roboto Flex';
     background-repeat: no-repeat;
@@ -67,13 +67,18 @@ footer{
 
 p{ 
     font-size: 18px;
-    font-variation-settings: "wght" 100
+    font-variation-settings: "wght" 700, "wdth" 55, "opsz" 48 , "GRAD" -131, "slnt" -7, "XTRA" 468, "XOPQ" 96, "YOPQ" 79, "YTLC" 514, "YTUC" 528, "YTAS" 854, "YTDE" -203, "YTFI" 738
 
 }
-h1{
-    font-size: 40px;
-    font-variation-settings: "wght" 350
-} 
+h1{ font-size: 40px;
+    font-variation-settings: "wght" 350 
+}
+   
+h5{ font-size: 60px;
+    font-variation-settings: "wght" 700, "wdth" 55, "opsz" 96, "GRAD" -131, "slnt" -7, "XTRA" 468, "XOPQ" 96, "YOPQ" 79, "YTLC" 514, "YTUC" 528, "YTAS" 854, "YTDE" -203, "YTFI" 738
+
+}
+   
 
 h2{
     font-size: 30px;
@@ -82,23 +87,23 @@ h2{
     
 /* variable font animation */
 h3{
-    margin-top: ;
-    font-size: 300px;
-    font-variation-settings:"wght" 700px, "wdth" 55, ;
+    margin-bottom: 145px;
+    margin-top: 150px;
+    font-size: 200px;
+    font-variation-settings: "wght" 800 ;
     transform: rotate(-7deg);
     text-align: center;
-    font-size: 5em;
-    animation: weightChange 7s infinite;
 }
 
 h4{
-    margin-top: ;
-    font-size: 300px;
-    font-variation-settings:"wght" 700px, "wdth" 55, ;
-    transform: rotate(20deg);
+    margin-top: 90px;
+    margin-bottom: 140px;
+    font-size: 200px;
+    font-variation-settings: "wght" 800 ;
+    transform: rotate(19deg);
     text-align: center;
-    font-size: 5em;
-    animation: weightChange 7s infinite;
+
+
 }
 
 
