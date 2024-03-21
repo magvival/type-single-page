@@ -12,11 +12,13 @@
     }
     
     body{
-    background-image: url("assets/backgrnd.sv");
+    background-image: url("assets/backgrnd.sg");
     background-color: rgb(255, 244, 244);
     font-family: 'Roboto Flex';
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: coer;
+    
+    
 }
 
 .hero{
@@ -141,23 +143,17 @@ grid-area: a;
 }
 
 .explore-ski{
-    text-align: center;
+   text-align: center;
    position: relative;
    top: 680px;
+   background-color: aliceblue;
+   padding:
+   
+   
 }
 
 
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+
 
 /* CSS for the footer */
 footer{
@@ -168,7 +164,7 @@ footer{
 }
 .footer-text{
     text-align: center;
-    top: -100px;
+    bottom: 20%;
 }
 p{ 
     font-size: 18px;
@@ -182,7 +178,8 @@ h5{ font-size: 60px;
     font-variation-settings: "wght" 700, "wdth" 55, "opsz" 96, "GRAD" -131, "slnt" -7, "XTRA" 468, "XOPQ" 96, "YOPQ" 79, "YTLC" 514, "YTUC" 528, "YTAS" 854, "YTDE" -203, "YTFI" 738
 
 }
-   
+
+
 
 h2{
     font-size: 30px;
@@ -212,12 +209,85 @@ h4{
 }
 
 h6{
-font-size: 40px;
+font-size: 30px;
 text-align: center;
 font-variation-settings: "wght" 700, "wdth" 55, "opsz" 48 , "GRAD" -131, "slnt" -7, "XTRA" 468, "XOPQ" 96, "YOPQ" 79, "YTLC" 514, "YTUC" 528, "YTAS" 854, "YTDE" -203, "YTFI" 738
 
 }
 
+ul{
+    font-size: 32px;
+
+
+}
+
+.weight{
+    font-variation-settings: "wght" 700 
+
+
+}
+
+.width{
+    font-variation-settings: "wdth" 155
+    
+
+}
+
+.slant{
+    font-variation-settings: "slnt" -10
+
+
+}
+
+.ascender{
+    font-variation-settings: "YTAS" 854
+
+}
+
+.descender{
+
+    font-variation-settings: "YTDE" -305 
+    
+}
+
+.counterwidth{
+    font-variation-settings: "wdth" -155
+    
+}
+
+.grade{
+    font-variation-settings:  "GRAD" -80
+
+
+}
+
+.figureheight{
+
+    font-variation-settings:  "YTFI" 788
+
+}
+
+.lowerheight{
+
+    font-variation-settings: "YTLC" 570
+
+}
+
+.upperheight{
+    font-variation-settings:  "YTUC" 760
+
+
+}
+
+.thin{
+
+    font-variation-settings: "wght" 100 
+}
+
+.thick{
+    font-variation-settings: "wght" 1000 
+    
+}
 
 /* variable font that changes on hover */
 .variable-font{
