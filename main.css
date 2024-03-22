@@ -156,10 +156,14 @@ grid-area: a;
     position: relative;
     top: px;
     background-color: rgb(102, 139, 107);
-    padding: 3px;
+
 
  }
 
+ .download-button{
+    color: black;
+    text-decoration: none;
+ }
 
 
 
