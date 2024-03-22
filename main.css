@@ -147,10 +147,18 @@ grid-area: a;
    position: relative;
    top: 680px;
    background-color: aliceblue;
-   padding:
-   
+   padding:j
    
 }
+
+.download-ski{
+    text-align: center;
+    position: relative;
+    top: px;
+    background-color: rgb(102, 139, 107);
+    padding: 3px;
+
+ }
 
 
 
@@ -183,7 +191,8 @@ h5{ font-size: 60px;
 
 h2{
     font-size: 30px;
-    font-variation-settings: "wght" 300
+    font-variation-settings: "wght" 700, "wdth" 55, "opsz" 96, "GRAD" -131, "slnt" -7, "XTRA" 468, "XOPQ" 96, "YOPQ" 79, "YTLC" 514, "YTUC" 528, "YTAS" 854, "YTDE" -203, "YTFI" 738
+
 }
     
 /* variable font animation */
@@ -209,9 +218,7 @@ h4{
 }
 
 h6{
-font-size: 30px;
-text-align: center;
-font-variation-settings: "wght" 700, "wdth" 55, "opsz" 48 , "GRAD" -131, "slnt" -7, "XTRA" 468, "XOPQ" 96, "YOPQ" 79, "YTLC" 514, "YTUC" 528, "YTAS" 854, "YTDE" -203, "YTFI" 738
+font-size: 40px;
 
 }
 
@@ -288,6 +295,16 @@ ul{
     font-variation-settings: "wght" 1000 
     
 }
+
+.prealphabet{
+font-size: 45px;
+
+
+}
+
+
+
+
 
 /* variable font that changes on hover */
 .variable-font{
