@@ -39,6 +39,13 @@
       transition: transform 400ms ease-in-out;
   }
   
+  .hero{
+  background-color: rgb(255, 244, 244);
+    font-family: 'Roboto Flex';
+    background-repeat: no-repeat;
+    background-size: 100%; width: fit-content;
+  }
+  
   nav ul {
       margin: 0;
       padding: 0;
