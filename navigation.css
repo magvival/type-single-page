@@ -11,13 +11,14 @@
   
   header {
     /* where to set the color of the nav bar */
-  background-image: url(assets/nav-bckgrnd.svg);
+  background-image: url("assets/nav-bckgrnd.svg");
+  width: 100%;
 
       text-align: left;
       top:0px;
       position: relative;
       z-index: 999;
-      height: 250px;
+      height: 300px;
       background-repeat: no-repeat;
       width: 100%;
   }
